@@ -1,4 +1,5 @@
 import '../styles/footer.css';
+import { Link } from 'react-router-dom';
 
 const WHATSAPP_URL = 'https://wa.me/3115119888';
 
@@ -44,20 +45,20 @@ export default function Footer() {
           <div>
             <p className="footer__col-title">Servicios</p>
             <ul className="footer__col-links">
-              <li><a href="#servicios">Administración de conjuntos</a></li>
-              <li><a href="#servicios">Asesoría especializada</a></li>
-              <li><a href="#charlas">Charlas y capacitaciones</a></li>
+              <li><Link to="/servicios">Administración de conjuntos</Link></li>
+              <li><Link to="/servicios">Asesoría especializada</Link></li>
+              <li><Link to="/charlas">Charlas y capacitaciones</Link></li>
             </ul>
           </div>
 
           <div>
             <p className="footer__col-title">Navegación</p>
             <ul className="footer__col-links">
-              <li><a href="#inicio">Inicio</a></li>
-              <li><a href="#servicios">Servicios</a></li>
-              <li><a href="#sobre">Experiencia</a></li>
-              <li><a href="#charlas">Charlas</a></li>
-              <li><a href="#contacto">Contacto</a></li>
+              <li><Link to="/">Inicio</Link></li>
+              <li><Link to="/servicios">Servicios</Link></li>
+              <li><Link to="/experiencia">Experiencia</Link></li>
+              <li><Link to="/charlas">Charlas</Link></li>
+              <li><Link to="/contacto">Contacto</Link></li>
             </ul>
           </div>
         </div>

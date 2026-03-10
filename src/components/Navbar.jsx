@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Link, NavLink } from 'react-router-dom';
 import '../styles/navbar.css';
 
 const WHATSAPP_URL = 'https://wa.me/3115119888';
@@ -21,11 +22,11 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { label: 'Inicio', href: '#inicio' },
-    { label: 'Servicios', href: '#servicios' },
-    { label: 'Experiencia', href: '#sobre' },
-    { label: 'Charlas', href: '#charlas' },
-    { label: 'Contacto', href: '#contacto' },
+    { label: 'Inicio', to: '/' },
+    { label: 'Servicios', to: '/servicios' },
+    { label: 'Experiencia', to: '/experiencia' },
+    { label: 'Charlas', to: '/charlas' },
+    { label: 'Contacto', to: '/contacto' },
   ];
 
   return (
@@ -37,12 +38,12 @@ export default function Navbar() {
         transition={{ duration: 0.5, ease: 'easeOut' }}
       >
         <div className="navbar__inner">
-          <a href="#inicio" className="navbar__logo">LGS Administración</a>
+          <Link to="/" className="navbar__logo">LGS Administración</Link>
 
           <ul className="navbar__menu">
             {navLinks.map((link) => (
-              <li key={link.href}>
-                <a href={link.href}>{link.label}</a>
+              <li key={link.to}>
+                <NavLink to={link.to}>{link.label}</NavLink>
               </li>
             ))}
           </ul>
@@ -75,9 +76,9 @@ export default function Navbar() {
               transition={{ duration: 0.25 }}
             >
               {navLinks.map((link) => (
-                <a key={link.href} href={link.href} onClick={() => setMobileOpen(false)}>
+                <NavLink key={link.to} to={link.to} onClick={() => setMobileOpen(false)}>
                   {link.label}
-                </a>
+                </NavLink>
               ))}
               <a
                 href={WHATSAPP_URL}
