@@ -7,6 +7,11 @@
   margin-bottom: var(--spacing-16);
 }
 
+.process__header .section-subtitle {
+  margin: 0 auto;
+  text-align: center;
+}
+
 .process__timeline {
   position: relative;
   max-width: 800px;

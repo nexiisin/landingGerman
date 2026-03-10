@@ -7,6 +7,11 @@
   margin-bottom: var(--spacing-16);
 }
 
+.services__header .section-subtitle {
+  margin: 0 auto;
+  text-align: center;
+}
+
 .services__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

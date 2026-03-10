@@ -1,10 +1,11 @@
 import { motion } from 'framer-motion';
+import germanPhoto from '../imgs/German.png';
 import '../styles/about.css';
 
 const highlights = [
   '16+ años de experiencia en propiedad horizontal',
   'Especialista en recuperación de conjuntos en crisis',
-  'Asesor de juntas de administración',
+  'Asesor de consejos de administracion',
   'Formador y conferencista en gestión comunitaria',
 ];
 
@@ -22,7 +23,7 @@ export default function About() {
           >
             <div className="about__photo-wrap">
               <div className="about__photo-frame">
-                <span className="about__photo-initials">LG</span>
+                <img src={germanPhoto} alt="Luis German Sanchez" className="about__photo-img" />
               </div>
               <div className="about__photo-badge">
                 <span className="about__photo-badge-number">16+</span>
@@ -40,12 +41,12 @@ export default function About() {
           >
             <span className="section-tag">Sobre el profesional</span>
             <h2 className="about__title">
-              Luis Germán<br />Sánchez Cadavid
+              Luis German<br />Sanchez Cadavid
             </h2>
             <p className="about__text">
               Administrador con más de 16 años de experiencia en propiedad horizontal,
               dedicado a fortalecer la gestión administrativa de conjuntos residenciales
-              y apoyar a las juntas de administración en la toma de decisiones.
+              y apoyar a los consejos de administracion en la toma de decisiones.
               Su especialidad es intervenir conjuntos con problemas administrativos
               y estructurar soluciones sostenibles que mejoren la convivencia y
               la estabilidad financiera.

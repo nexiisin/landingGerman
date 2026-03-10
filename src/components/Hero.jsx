@@ -1,9 +1,8 @@
 import { motion } from 'framer-motion';
+import germanPhoto from '../imgs/German.png';
 import '../styles/hero.css';
 
-const WHATSAPP_NUMBER = '573001234567';
-const WHATSAPP_MSG = encodeURIComponent('Hola, me interesa conocer más sobre los servicios de administración.');
-const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MSG}`;
+const WHATSAPP_URL = 'https://wa.me/3115119888';
 
 const WhatsAppIcon = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
@@ -46,7 +45,7 @@ export default function Hero() {
             animate="show"
             custom={0.2}
           >
-            Luis Germán<br />Sánchez Cadavid
+            Luis German<br />Sanchez Cadavid
           </motion.h1>
 
           <motion.p
@@ -76,7 +75,7 @@ export default function Hero() {
             animate="show"
             custom={0.5}
           >
-            Más de 16 años de experiencia apoyando juntas de administración en la
+            Más de 16 años de experiencia apoyando consejos de administracion en la
             organización financiera y administrativa de conjuntos residenciales.
           </motion.p>
 
@@ -107,17 +106,15 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
         >
           <div className="hero__card">
-            <div className="hero__avatar">LG</div>
-            <div className="hero__card-name">Luis Germán Sánchez</div>
+            <div className="hero__avatar">
+              <img src={germanPhoto} alt="Luis German Sanchez" className="hero__avatar-img" />
+            </div>
+            <div className="hero__card-name">Luis German Sanchez</div>
             <div className="hero__card-role">Administrador de P. Horizontal</div>
             <div className="hero__card-stats">
               <div className="hero__card-stat">
                 <strong>16+</strong>
                 <span>Años</span>
-              </div>
-              <div className="hero__card-stat">
-                <strong>100+</strong>
-                <span>Conjuntos</span>
               </div>
               <div className="hero__card-stat">
                 <strong>⭐ 5</strong>

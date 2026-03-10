@@ -1,9 +1,7 @@
 import { motion } from 'framer-motion';
 import '../styles/cta.css';
 
-const WHATSAPP_NUMBER = '573001234567';
-const WHATSAPP_MSG = encodeURIComponent('Hola, mi conjunto necesita mejorar su administración. Me gustaría conocer sus servicios.');
-const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MSG}`;
+const WHATSAPP_URL = 'https://wa.me/3115119888';
 
 const WhatsAppIcon = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">

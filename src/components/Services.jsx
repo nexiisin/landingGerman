@@ -5,12 +5,12 @@ const services = [
   {
     icon: '🏢',
     title: 'Administración de conjuntos',
-    text: 'Gestión integral de propiedad horizontal incluyendo manejo financiero, coordinación de mantenimiento y apoyo a juntas de administración.',
+    text: 'Gestión integral de propiedad horizontal incluyendo manejo financiero, coordinación de mantenimiento y apoyo a consejos de administracion.',
   },
   {
     icon: '🎯',
     title: 'Asesoría especializada',
-    text: 'Diagnóstico administrativo y acompañamiento a juntas de administración en la toma de decisiones estratégicas.',
+    text: 'Diagnóstico administrativo y acompañamiento a consejos de administracion en la toma de decisiones estratégicas.',
   },
   {
     icon: '🎤',

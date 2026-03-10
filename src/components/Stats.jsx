@@ -33,9 +33,8 @@ function CountUp({ target, suffix = '', duration = 2 }) {
 
 const stats = [
   { value: 16, suffix: '+', label: 'Años de experiencia' },
-  { value: 100, suffix: '+', label: 'Conjuntos residenciales administrados' },
-  { value: 50, suffix: '+', label: 'Juntas de administración asesoradas' },
-  { value: 30, suffix: '+', label: 'Charlas y capacitaciones realizadas' },
+  { value: 30, suffix: '+', label: 'Consejos de administracion asesorados' },
+  { value: 25, suffix: '+', label: 'Charlas y capacitaciones realizadas' },
 ];
 
 export default function Stats() {

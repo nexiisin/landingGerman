@@ -38,6 +38,13 @@
   letter-spacing: -0.04em;
 }
 
+.about__photo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 .about__photo-badge {
   position: absolute;
   bottom: -16px;

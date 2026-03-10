@@ -1,8 +1,6 @@
 import '../styles/footer.css';
 
-const WHATSAPP_NUMBER = '573001234567';
-const WHATSAPP_MSG = encodeURIComponent('Hola, me interesa conocer más sobre los servicios de administración.');
-const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MSG}`;
+const WHATSAPP_URL = 'https://wa.me/3115119888';
 
 const WhatsAppIcon = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14">
@@ -20,7 +18,7 @@ export default function Footer() {
           <div className="footer__brand">
             <span className="footer__logo">LGS Administración</span>
             <p className="footer__tagline">
-              Luis Germán Sánchez Cadavid<br />
+              Luis German Sanchez Cadavid<br />
               Administrador de Propiedad Horizontal
             </p>
             <ul className="footer__contact-list">
@@ -31,9 +29,9 @@ export default function Footer() {
                 </a>
               </li>
               <li className="footer__contact-item">
-                <a href="mailto:lgs@administracion.com">
+                <a href="mailto:germancadavid0808@gmail.com">
                   <span className="footer__contact-icon">✉</span>
-                  lgs@administracion.com
+                  germancadavid0808@gmail.com
                 </a>
               </li>
               <li className="footer__contact-item">
@@ -69,7 +67,7 @@ export default function Footer() {
             © {currentYear} LGS Administración. Todos los derechos reservados.
           </p>
           <p className="footer__made">
-            Luis Germán Sánchez Cadavid · Administrador de Propiedad Horizontal
+            Luis German Sanchez Cadavid · Administrador de Propiedad Horizontal
           </p>
         </div>
       </div>
