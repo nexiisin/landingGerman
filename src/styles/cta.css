@@ -1,0 +1,93 @@
+.cta {
+  background: var(--color-black);
+  padding: var(--spacing-24) 0;
+}
+
+.cta__inner {
+  background: var(--gradient-main);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-20) var(--spacing-8);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cta__inner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 60% 80% at 50% 0%, rgba(255,255,255,0.08) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.cta__content {
+  position: relative;
+  z-index: 1;
+}
+
+.cta__tag {
+  display: inline-block;
+  background: rgba(255,255,255,0.15);
+  color: var(--color-white);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: var(--spacing-2) var(--spacing-4);
+  border-radius: var(--radius-full);
+  margin-bottom: var(--spacing-6);
+}
+
+.cta__title {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 800;
+  color: var(--color-white);
+  margin-bottom: var(--spacing-6);
+  line-height: 1.2;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta__subtitle {
+  font-size: var(--font-size-lg);
+  color: rgba(255,255,255,0.75);
+  margin-bottom: var(--spacing-10);
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-3);
+  background: var(--color-white);
+  color: var(--color-navy);
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  padding: 1rem var(--spacing-8);
+  border-radius: var(--radius-full);
+  transition: all var(--transition-base);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+.btn-cta:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 48px rgba(0,0,0,0.4);
+  background: #F0F4FF;
+}
+
+.btn-cta svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+  .cta__inner {
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-16) var(--spacing-6);
+  }
+}
