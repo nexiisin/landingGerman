@@ -1,0 +1,106 @@
+.process {
+  background: rgba(10,31,68,0.15);
+}
+
+.process__header {
+  text-align: center;
+  margin-bottom: var(--spacing-16);
+}
+
+.process__header .section-subtitle {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.process__timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.process__timeline::before {
+  content: '';
+  position: absolute;
+  left: 32px;
+  top: 24px;
+  bottom: 24px;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--color-blue), rgba(30,107,255,0.1));
+}
+
+.process__step {
+  display: flex;
+  gap: var(--spacing-8);
+  margin-bottom: var(--spacing-8);
+  position: relative;
+}
+
+.process__step:last-child {
+  margin-bottom: 0;
+}
+
+.process__step-number {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--gradient-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  color: var(--color-white);
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 0 0 4px var(--color-black), 0 0 0 6px rgba(30,107,255,0.3);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.process__step:hover .process__step-number {
+  transform: scale(1.1);
+  box-shadow: 0 0 0 4px var(--color-black), 0 0 0 6px rgba(30,107,255,0.6);
+}
+
+.process__step-content {
+  flex: 1;
+  padding: var(--spacing-4) var(--spacing-6);
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: var(--radius-lg);
+  transition: all var(--transition-base);
+}
+
+.process__step:hover .process__step-content {
+  background: rgba(30,107,255,0.06);
+  border-color: rgba(30,107,255,0.2);
+}
+
+.process__step-title {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--color-white);
+  margin-bottom: var(--spacing-2);
+}
+
+.process__step-text {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .process__timeline::before {
+    left: 24px;
+  }
+
+  .process__step-number {
+    width: 48px;
+    height: 48px;
+    font-size: var(--font-size-base);
+  }
+
+  .process__step {
+    gap: var(--spacing-4);
+  }
+}
