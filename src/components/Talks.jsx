@@ -3,20 +3,28 @@ import '../styles/talks.css';
 
 const talks = [
   {
-    title: 'Buenas prácticas en propiedad horizontal',
-    text: 'Fundamentos y estándares para una gestión administrativa eficiente y transparente.',
+    title: 'Qué es vivir en propiedad horizontal',
+    text: 'Principios de convivencia, corresponsabilidad y cultura comunitaria.',
   },
   {
-    title: 'Funciones del consejo de administración',
-    text: 'Roles, responsabilidades y mejores prácticas para los miembros del consejo.',
+    title: 'Ley 675 del 2001 y sus conexas aplicada a la propiedad horizontal',
+    text: 'Interpretación práctica de la norma para decisiones claras y ajustadas a la ley.',
   },
   {
-    title: 'Gestión administrativa responsable',
-    text: 'Herramientas y metodologías para una administración profesional y ética.',
+    title: 'Funciones de los entes que integran la propiedad horizontal',
+    text: 'Rol de administradores, consejo, asamblea y comité de convivencia.',
   },
   {
-    title: 'Resolución de conflictos en comunidades',
-    text: 'Estrategias de mediación y convivencia para fortalecer la comunidad.',
+    title: 'Presupuestos eficientes',
+    text: 'Planeación y control financiero para una administración sostenible.',
+  },
+  {
+    title: 'Orientación para asambleas exitosas',
+    text: 'Preparación, conducción y seguimiento para reuniones más efectivas.',
+  },
+  {
+    title: 'Manejo y recuperación de cartera',
+    text: 'Estrategias para mejorar recaudo y estabilizar las finanzas de la copropiedad.',
   },
 ];
 
@@ -34,7 +42,7 @@ export default function Talks() {
           <span className="section-tag">Charlas</span>
           <h2 className="section-title">Charlas y capacitaciones</h2>
           <p className="section-subtitle">
-            Formación especializada para administradores, juntas y comunidades.
+            Contenidos prácticos para fortalecer la gestión y la convivencia en propiedad horizontal.
           </p>
         </motion.div>
 

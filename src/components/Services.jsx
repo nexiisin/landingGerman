@@ -4,18 +4,24 @@ import '../styles/services.css';
 const services = [
   {
     icon: '🏢',
-    title: 'Administración de conjuntos',
+    title: 'Administración de copropiedades',
     text: 'Gestión integral de propiedad horizontal incluyendo manejo financiero, coordinación de mantenimiento y apoyo a consejos de administracion.',
   },
   {
     icon: '🎯',
-    title: 'Asesoría especializada',
-    text: 'Diagnóstico administrativo y acompañamiento a consejos de administracion en la toma de decisiones estratégicas.',
+    title: 'Asesoría personalizada',
+    text: 'Asesoría en todo lo referente a gestión de propiedad horizontal, tanto para residentes como para el consejo.',
   },
   {
     icon: '🎤',
     title: 'Charlas y capacitaciones',
-    text: 'Formación para administradores, consejos de administración y comunidades en buenas prácticas de propiedad horizontal.',
+    points: [
+      'Diagnóstico administrativo',
+      'Aplicación de la Ley 675 y conexas',
+      'Asesoría a consejeros',
+      'Elaboración de presupuestos',
+      'Pedagogía para residentes',
+    ],
   },
 ];
 
@@ -45,7 +51,7 @@ export default function Services() {
           <span className="section-tag">Servicios</span>
           <h2 className="section-title">¿Qué ofrezco?</h2>
           <p className="section-subtitle">
-            Soluciones integrales para la gestión profesional de su propiedad horizontal.
+            Soluciones integrales y sistematizadas para la gestión profesional de su propiedad horizontal.
           </p>
         </motion.div>
 
@@ -61,7 +67,15 @@ export default function Services() {
               <div className="service-card__content">
                 <div className="service-card__icon-wrap">{service.icon}</div>
                 <h3 className="service-card__title">{service.title}</h3>
-                <p className="service-card__text">{service.text}</p>
+                {service.points ? (
+                  <ul className="service-card__list">
+                    {service.points.map((point, index) => (
+                      <li key={index} className="service-card__list-item">{point}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="service-card__text">{service.text}</p>
+                )}
               </div>
             </motion.div>
           ))}

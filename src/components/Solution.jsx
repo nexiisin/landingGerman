@@ -21,12 +21,12 @@ export default function Solution() {
           >
             <span className="section-tag">La Solución</span>
             <h2 className="solution__title">
-              Una administración<br />clara y organizada
+              Una administración<br />clara, organizada e idónea
             </h2>
             <p className="solution__text">
               Una gestión profesional permite estructurar procesos administrativos
               eficientes, fortalecer el control financiero y mejorar la toma de
-              decisiones dentro del conjunto.
+              decisiones dentro de la copropiedad.
             </p>
 
             <div className="solution__blocks">

@@ -4,8 +4,8 @@ import '../styles/about.css';
 
 const highlights = [
   '16+ años de experiencia en propiedad horizontal',
-  'Especialista en recuperación de conjuntos en crisis',
-  'Asesor de consejos de administracion',
+  'Especialista en intervención de copropiedades con dificultades financieras, administrativas y de cartera',
+  'Asesor y orientador de consejeros en propiedad horizontal',
   'Formador y conferencista en gestión comunitaria',
 ];
 
@@ -44,12 +44,12 @@ export default function About() {
               Luis German<br />Sanchez Cadavid
             </h2>
             <p className="about__text">
-              Administrador con más de 16 años de experiencia en propiedad horizontal,
-              dedicado a fortalecer la gestión administrativa de conjuntos residenciales
-              y apoyar a los consejos de administracion en la toma de decisiones.
-              Su especialidad es intervenir conjuntos con problemas administrativos
-              y estructurar soluciones sostenibles que mejoren la convivencia y
-              la estabilidad financiera.
+              Tecnólogo en administración y gerencia de propiedad horizontal con más de
+              16 años, dedicado a fortalecer la gestión integral de copropiedades a su
+              cargo, orientando y apoyando a los consejeros en sus funciones para un
+              mejor acompañamiento en la toma de decisiones. Especialista en intervenir
+              copropiedades con problemas financieros, administrativos, convivencia,
+              cartera, etcétera.
             </p>
 
             <div className="about__highlights">

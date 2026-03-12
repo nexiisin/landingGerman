@@ -8,6 +8,7 @@ import Solution from './components/Solution';
 import Services from './components/Services';
 import Process from './components/Process';
 import About from './components/About';
+import ManagedProperties from './components/ManagedProperties';
 import Talks from './components/Talks';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
@@ -36,6 +37,7 @@ function HomePage() {
       <Services />
       <Process />
       <About />
+      <ManagedProperties />
       <Talks />
       <CTA />
     </>
@@ -55,6 +57,7 @@ function ExperiencePage() {
   return (
     <>
       <About />
+      <ManagedProperties />
       <Stats />
       <CTA />
     </>

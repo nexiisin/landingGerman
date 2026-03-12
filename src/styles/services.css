@@ -87,6 +87,22 @@
   line-height: 1.7;
 }
 
+.service-card__list {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--color-gray-300);
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
+}
+
+.service-card__list-item {
+  margin-bottom: var(--spacing-2);
+}
+
+.service-card__list-item:last-child {
+  margin-bottom: 0;
+}
+
 @media (max-width: 900px) {
   .services__grid {
     grid-template-columns: 1fr;

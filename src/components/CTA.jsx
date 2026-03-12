@@ -23,10 +23,10 @@ export default function CTA() {
           <div className="cta__content">
             <span className="cta__tag">¿Listo para el cambio?</span>
             <h2 className="cta__title">
-              ¿Tu conjunto necesita mejorar su administración?
+              ¿Tu copropiedad necesita mejorar su administración?
             </h2>
             <p className="cta__subtitle">
-              Contáctame hoy y comencemos a transformar la gestión de tu conjunto residencial.
+              Contáctame hoy y comencemos a transformar la gestión de tu copropiedad.
             </p>
             <motion.a
               href={WHATSAPP_URL}

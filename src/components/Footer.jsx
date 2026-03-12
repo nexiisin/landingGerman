@@ -45,8 +45,8 @@ export default function Footer() {
           <div>
             <p className="footer__col-title">Servicios</p>
             <ul className="footer__col-links">
-              <li><Link to="/servicios">Administración de conjuntos</Link></li>
-              <li><Link to="/servicios">Asesoría especializada</Link></li>
+              <li><Link to="/servicios">Administración de copropiedades</Link></li>
+              <li><Link to="/servicios">Asesoría personalizada</Link></li>
               <li><Link to="/charlas">Charlas y capacitaciones</Link></li>
             </ul>
           </div>

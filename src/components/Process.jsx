@@ -4,8 +4,8 @@ import '../styles/process.css';
 const steps = [
   {
     number: '01',
-    title: 'Diagnóstico del conjunto',
-    text: 'Evaluación integral del estado administrativo, financiero y de convivencia del conjunto.',
+    title: 'Diagnóstico de la copropiedad',
+    text: 'Se evalúa la cartera, contratación, mantenimiento y convivencia, además del estado administrativo y financiero de la copropiedad.',
   },
   {
     number: '02',
@@ -15,7 +15,7 @@ const steps = [
   {
     number: '03',
     title: 'Optimización de procesos',
-    text: 'Implementación de mejoras en la gestión financiera, mantenimiento y comunicación con residentes.',
+    text: 'Implementación de mejoras en todas las áreas de la gestión administrativa y financiera.',
   },
   {
     number: '04',
@@ -38,7 +38,7 @@ export default function Process() {
           <span className="section-tag">Método de trabajo</span>
           <h2 className="section-title">Proceso de intervención</h2>
           <p className="section-subtitle">
-            Un enfoque estructurado y probado para recuperar la gestión de su conjunto.
+            Un enfoque estructurado y probado para recuperar la gestión de su copropiedad.
           </p>
         </motion.div>
 

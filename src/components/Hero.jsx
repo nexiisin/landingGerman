@@ -65,7 +65,7 @@ export default function Hero() {
             animate="show"
             custom={0.4}
           >
-            Especialista en recuperar conjuntos con problemas administrativos.
+            Especialista en recuperar copropiedades con problemas de gestión, administrativos y de cartera.
           </motion.p>
 
           <motion.p
@@ -75,8 +75,8 @@ export default function Hero() {
             animate="show"
             custom={0.5}
           >
-            Más de 16 años de experiencia apoyando consejos de administracion en la
-            organización financiera y administrativa de conjuntos residenciales.
+            Más de 16 años de experiencia apoyando consejos de administración en la
+            organización financiera, administrativa y de cartera de copropiedades.
           </motion.p>
 
           <motion.div
@@ -109,8 +109,8 @@ export default function Hero() {
             <div className="hero__avatar">
               <img src={germanPhoto} alt="Luis German Sanchez" className="hero__avatar-img" />
             </div>
-            <div className="hero__card-name">Luis German Sanchez</div>
-            <div className="hero__card-role">Administrador de P. Horizontal</div>
+            <div className="hero__card-name">Luis German Sanchez C.</div>
+            <div className="hero__card-role">Tecnólogo en administración y gerencia de P.H</div>
             <div className="hero__card-stats">
               <div className="hero__card-stat">
                 <strong>16+</strong>
