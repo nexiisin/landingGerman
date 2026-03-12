@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import germanPhoto from '../imgs/German.png';
 import '../styles/hero.css';
 
-const WHATSAPP_URL = 'https://wa.me/3115119888';
+const WHATSAPP_URL = 'https://wa.me/3194892147';
 
 const WhatsAppIcon = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">

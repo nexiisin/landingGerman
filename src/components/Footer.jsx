@@ -1,7 +1,7 @@
 import '../styles/footer.css';
 import { Link } from 'react-router-dom';
 
-const WHATSAPP_URL = 'https://wa.me/3115119888';
+const WHATSAPP_URL = 'https://wa.me/3194892147';
 
 const WhatsAppIcon = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14">

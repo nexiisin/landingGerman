@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import '../styles/navbar.css';
 
-const WHATSAPP_URL = 'https://wa.me/3115119888';
+const WHATSAPP_URL = 'https://wa.me/3194892147';
 
 const WhatsAppIcon = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

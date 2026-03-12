@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import '../styles/cta.css';
 
-const WHATSAPP_URL = 'https://wa.me/3115119888';
+const WHATSAPP_URL = 'https://wa.me/3194892147';
 
 const WhatsAppIcon = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
